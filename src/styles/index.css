@@ -48,3 +48,7 @@
     width: 18rem;
     margin: 1rem;
 }
+
+.jumbotron {
+    background-color: gray;
+}
