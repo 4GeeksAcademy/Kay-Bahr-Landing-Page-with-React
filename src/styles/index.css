@@ -50,5 +50,10 @@
 }
 
 .jumbotron {
-    background-color: gray;
+    background-color: rgb(242, 244, 247);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-left: 30px;
 }
