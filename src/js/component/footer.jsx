@@ -4,7 +4,7 @@ import React from "react";
 function Footer(){
     return (
         <div className="container-fluid" style={{
-            backgroundColor: "rgb(76, 79, 90)",
+            backgroundColor: "rgb(62, 64, 73)",
             position: "fixed",
             left: 0,
             right: 0,
