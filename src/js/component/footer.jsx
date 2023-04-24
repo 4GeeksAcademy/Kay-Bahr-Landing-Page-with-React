@@ -10,6 +10,7 @@ function Footer(){
             right: 0,
             bottom: 0,
             width: "100%",
+            height: "100px"
         }}>
             <footer className="py-3 my-4">
                 <p className="text-center" style={{ color: "white"}}><strong>Copyright © Your Website 2018</strong></p>

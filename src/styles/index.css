@@ -37,17 +37,45 @@
 }
 
 .card-body {
-    height: 400px;
+    height: 250px;
+    text-align: center;
 }
 
 .card-footer {
-    height: 100px;
+    height: 55px;
+    background-color: white;
+    text-align: center;
 }
  
 .card-item {
     width: 18rem;
     margin: 1rem;
 }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+  
+@media screen and (max-width: 768px) {
+    .card-container {
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-width: 275px;
+      margin: 0 auto;
+    }
+  
+    .card {
+      width: 100%;
+    }
+}
+  
+
+@media screen and (max-width: 480px) {
+    .card-container {
+      max-width: 275px;
+    }
+}  
 
 .jumbotron {
     background-color: rgb(242, 244, 247);
